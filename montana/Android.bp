@@ -5,3 +5,10 @@
 soong_namespace {
 }
 
+dex_import {
+	name: "com.fingerprints.extension",
+	owner: "motorola",
+	jars: ["proprietary/vendor/framework/com.fingerprints.extension.jar"],
+	soc_specific: true,
+}
+
